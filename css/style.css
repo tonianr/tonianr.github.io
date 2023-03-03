@@ -15,9 +15,9 @@
 
 .side-menu{
     position: fixed;
-    width: 15%;
+    width: 10%;
     height: 100%;
-    background-color: #16163e;
+    background-color: #303458;
 }
 .side-menu a{
     text-decoration: non;
@@ -28,11 +28,11 @@
     display: block;
     padding: 20px;
     text-transform: uppercase;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black; */
+    /* border-bottom: 1px solid black; */
 }
 .side-menu a:hover{
-    background-color: rgb(82, 2, 51);
+    background-color: rgb(77, 11, 52);
     transition: 0.5s;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -51,19 +51,19 @@
     /*padding: 20px;*/
     /*background-color: rgb(152, 158, 162);*/
 }
-#logo{
+/* #logo{
     color: #fff;
     font-size: 20px;
     letter-spacing: 4px;
     padding: 15px;
     background-color: #000;
-}
+} */
 
 
 
 .body{
     width: 100%;
-    margin-left: 20%;
+    margin-left: 15%;
     margin-right: 5%;
     text-align: left;
 }
@@ -101,22 +101,22 @@
 
 .button {
     display: inline-block;
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 5px 10px;
+    font-size: 12px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #4CAF50;
+    background-color: #4c56af;
     border: none;
     border-radius: 15px;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #363d7e}
 
 .button:active {
-    background-color: #3e8e41;
+    background-color: #4c56af;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
