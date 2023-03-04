@@ -3,44 +3,201 @@
         <head> 
             <title> Tonian's Site</title>
             <link rel="preconnect" href="https://fonts.gstatic.com" >
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="css/style.css" type="text/css">
         </head>
-        <body>
-            <div class="main">
-                <div class = "side-menu">
-                    
-                    <center> 
-                        <img src="imgs/tonian.jpg">
-                        <h2>Tonian Robinson</h2>
-                        <br><br>
-                    </center>
-                    <a href = "index.html">Background</a>
-                    <a href = "Research.html">Research</a>
-                    <a href = "#">Outreach</a>
-                    <a href = "#">Resume/CV</a>
-                    <a href = "#">Other Works</a>
-                </div>
-                <div class = "body">
-                    <h1> About Me</h1>
-                    <br><br>
-                    <p>
-                        My name is Tonian (pronunciation: TOH-nEE-ANN), a Ph.D. candidate at the University of South Florida, where I study sinkhole and other anthropogenic-related deformations using Persistent Scatterer Interferometric Synthetic Aperature (PSInSAR). My current project focuses on analyzing satellite images collected in West-Central Florida to improve the detection of sinkhole deformation signals.
-                        <br>I enjoy data processing, especially using my GIS and remote sensing-related skills. For my career, I plan to apply these skills to real-world problems related to agriculture, natural disasters, energy, urban development, etc.             
-                    </p>
-                    <br><br>
-                    <button type="submit" class="button" onclick="window.open('/docs/CV_TONIAN_ROBINSON_v4.pdf')">Download CV</button>
-                    <button type="submit" class="button" onclick="window.open('/docs/RESUME_TONIAN_ROBINSON_v7.pdf')">Download RESUME</button>
 
-                    <h2> How I started...</h2>
+        <body>
+
+            <!-- Header Menu of the Page -->
+            <header class="main">
+                    <img src="imgs/header_Idaho_fields.jpg">
+                    <h1 id = "header"> Hi, I'm Tonian!</h1>
+                
+            </header>
+
+
+             <!-- Navigation Menu -->
+             <nav>
+                <ul>
+                    <li class="active"><a href = "index.html">Home</a></li>
+                    <li><a href = "Research.html">Research</a></li>
+                    <li><a href = "#">Outreach</a></li>
+                    <li><a href="#">Other</a></li>
+                    <li><a href = "#">Other Works</a></li>
+                </ul>
+            </nav>
+
+            
+            <div class = "body">
+                <h1> About Me</h1> <p>My name is Tonian (pronunciation: TOH-nEE-ANN), a Ph.D. candidate at the University of South Florida, where I study sinkhole and other anthropogenic-related deformations using Persistent Scatterer Interferometric Synthetic Aperature (PSInSAR). My current project focuses on analyzing satellite images collected in West-Central Florida to improve the detection of sinkhole deformation signals.
+                    I enjoy data processing and application development, especially using my GIS and remote sensing-related skills.
                     <br><br>
-                    <h3> 2014 - 2017 </h3>
-                    <p> I am a trained Near-surface Geophysicist, I started as a Undergraduate Rearch Assistant at Rutgers State University.</p>
-                    <img src="imgs/rutgers/REUconference2016.jpg" alt=""> 
-                    <br><br>
-                    <h3> 2017 - present</h3>
-                    <p> Upon starting graduate school I began my journey as a Geodesist/Remote Sensing Scientist.</p>
+                    <button type="submit" class="button buttonCV" onclick="window.open('/docs/CV_TONIAN_ROBINSON_v4.pdf')">CV</button>
+                    <button type="submit" class="button buttonRESUME" onclick="window.open('/docs/RESUME_TONIAN_ROBINSON_v7.pdf')">RESUME</button>
+                    </p>
+                
+                    
+                <div class="w3-container">
+                    <h2>How I became a Geophysicist</h2>
+                    <p> My love for field began after taking a Geophysics course. 
+                        In 2014 I began working as a part-time Undergraduate Research Assistant in Near-surface Geophysics. 
+                        The project I worked on focused on estimating the petrophysical properties controlling fluid flow
+                        of sandstone samples using geophysical applications.
+                        
+                         </p>
                 </div>
+                  
+                  <div class="w3-content w3-display-container">
+                  
+                  <div class="w3-display-container mySlides">
+                    <img src="imgs/rutgers/REUconference2016.jpg" style="width:100%">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                      2016 REU Conference in DC
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides">
+                    <img src="imgs/rutgers/20151028_175157.jpg" style="width:100%">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                      Apparatus for Spectral Induced Polarization (SIP) measurements
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides">
+                    <img src="imgs/rutgers/20160614_141433.jpg" style="width:100%">
+                    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                      Measuring the magnetic signature of sandstone cores
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides">
+                    <img src="imgs/rutgers/toni_MICP.jpg" style="width:100%">
+                    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                        Mercury porosimetry used to measure the porosity of sandstone samples
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides">
+                    <img src="imgs/rutgers/2015-12-15 02.51.171_copy.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                        Using ASAP 2020 Plus: adsorption analyzer for measuring surface area
+                    </div>
+                  </div>
+                  
+                  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                  
+                  </div>
+                  
+                  <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                      showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                      var i;
+                      var x = document.getElementsByClassName("mySlides");
+                      if (n > x.length) {slideIndex = 1}
+                      if (n < 1) {slideIndex = x.length}
+                      for (i = 0; i < x.length; i++) {
+                         x[i].style.display = "none";  
+                      }
+                      x[slideIndex-1].style.display = "block";  
+                    }
+                    </script>
+                  
+                    
+                                      
+                  <br><br>
+               
+                <div class="w3-container">
+                    <h2>How I became a Geodesist</h2>
+                    <p> My love for field began after taking a Geophysics course. 
+                        In 2014 I began working as a part-time Undergraduate Research Assistant in Near-surface Geophysics. 
+                        The project I worked on focused on estimating the petrophysical properties controlling fluid flow
+                        of sandstone samples using geophysical applications. 
+                        I would typical combine both Near-surface geophysics and Geodetic applications.
+                        
+                         </p>
+                  </div>
+                  
+                  <div class="w3-content w3-display-container">
+
+                    <div class="w3-display-container mySlides1">
+                        <img src="imgs/AGU22_cropped.jpg" style="width:100%">
+                        <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                          AGU 2022
+                        </div>
+                      </div>
+
+                  <div class="w3-display-container mySlides1">
+                    <img src="docs/AGUPOSTER2018_TROBINSON_FINAL1024_1.jpg" style="width:100%">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                      AGU 2017
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides1">
+                    <img src="imgs/toni_gpr.jpg" style="width:100%">
+                    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                        GPR on the 2018 Land-O-Lakes sinkhole collapse
+                    </div>
+                  </div>
+                  
+                  <div class="w3-display-container mySlides1">
+                    <img src="imgs/boat_cropjpg.jpg" style="width:100%">
+                    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                      GPR on the 2018 Land-O-Lakes sinkhole collapse, after filling
+                    </div>
+                  </div>
+                  
+                  
+                  <!-- <div class="w3-display-container mySlides1">
+                    <img src="imgs/rutgers/2015-12-15 02.51.171_copy.jpg" style="width:100%">
+                    <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                        Using ASAP 2020 Plus: adsorption analyzer for measuring surface area
+                    </div>
+                  </div> -->
+                  
+                  <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                  <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                  
+                  </div>
+                  
+
+
+
+                  <script>
+                  var slideIndex = 1;
+                  showDivs(slideIndex);
+                  
+                  function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                  }
+                  
+                  function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides1");
+                    if (n > x.length) {slideIndex = 1}
+                    if (n < 1) {slideIndex = x.length}
+                    for (i = 0; i < x.length; i++) {
+                       x[i].style.display = "none";  
+                    }
+                    x[slideIndex-1].style.display = "block";  
+                  }
+                  </script>
+
+
+
+                    
+
+
+
             </div>
         </body>
     </html>
